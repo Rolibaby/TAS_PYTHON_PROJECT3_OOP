@@ -1,12 +1,13 @@
-# create a Class called Human
+# Create a Class called Human
 class Human:
     name = "intelligent"
     group = "Female"
 
     def get_name_group(self):
-        return self.name + "Yes," + self.group
+        return self.name + " vibrant " + self.group
 
 
-# intialize the class
+# initialize the class
 intelligent = Human()
 print(intelligent.name, intelligent.group, intelligent.get_name_group())
+
